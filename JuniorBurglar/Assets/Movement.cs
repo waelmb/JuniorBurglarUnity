@@ -32,7 +32,7 @@ public class Movement : MonoBehaviour
         //Movement
         Vector3 horizontal = new Vector3(horizontalInput, 0.0f, 0.0f);
         Vector3 vertical = new Vector3(0.0f, Input.GetAxis("Vertical"), 0.0f);
-        UnityEngine.Debug.Log(horizontal);
+        //UnityEngine.Debug.Log(horizontal);
         //UnityEngine.Debug.Log(transform.position);
         transform.position = transform.position + horizontal * RunSpeed * Time.deltaTime;
         transform.position = transform.position + vertical * RunSpeed * Time.deltaTime;
