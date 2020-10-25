@@ -13258,6 +13258,26 @@ PrefabInstance:
       propertyPath: m_Icon
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 2179087871871633349, guid: d2bbcfaf81e010141b569b01e185b504,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455617161867136368, guid: d2bbcfaf81e010141b569b01e185b504,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455617161867136368, guid: d2bbcfaf81e010141b569b01e185b504,
+        type: 3}
+      propertyPath: m_GravityScale
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3455617161867136368, guid: d2bbcfaf81e010141b569b01e185b504,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 4381179834050197884, guid: d2bbcfaf81e010141b569b01e185b504,
         type: 3}
       propertyPath: sceneToLoad
@@ -13316,6 +13336,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Constraints
       value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790607024693925192, guid: 51fa61f2b652d9f4484c2e146b9c9c0a,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4790607024693925195, guid: 51fa61f2b652d9f4484c2e146b9c9c0a,
         type: 3}
@@ -13381,6 +13406,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790607024693925199, guid: 51fa61f2b652d9f4484c2e146b9c9c0a,
+        type: 3}
+      propertyPath: RunSpeed
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 51fa61f2b652d9f4484c2e146b9c9c0a, type: 3}
