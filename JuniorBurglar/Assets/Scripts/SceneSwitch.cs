@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class SceneSwitch : MonoBehaviour
 {
     public string sceneToLoad;
+    //public Vector2 playerPosition;
+    //public VectorValue playerStorage;
 
     void OnTriggerEnter2D(Collider2D other)
     {
@@ -13,6 +15,7 @@ public class SceneSwitch : MonoBehaviour
 
         if (other.gameObject.layer == LayerMask.NameToLayer("Player"))
         {
+            //playerStorage.initialVlaue = playerPosition;
             SceneManager.LoadScene(sceneToLoad);
         }
     }

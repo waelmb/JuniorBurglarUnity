@@ -198,6 +198,12 @@ PrefabInstance:
       propertyPath: sceneToLoad
       value: Tutorialville
       objectReference: {fileID: 0}
+    - target: {fileID: 4381179834050197884, guid: d2bbcfaf81e010141b569b01e185b504,
+        type: 3}
+      propertyPath: playerStorage
+      value: 
+      objectReference: {fileID: 11400000, guid: a1cfc536602490a48af4d0fde224ab8b,
+        type: 2}
     - target: {fileID: 6839709957197371520, guid: d2bbcfaf81e010141b569b01e185b504,
         type: 3}
       propertyPath: m_Offset.x
