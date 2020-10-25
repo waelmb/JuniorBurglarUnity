@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Park.unity
     guid: 1c2fd28347fb4e74dac99d068f2e2fc1
   - enabled: 1
+    path: Assets/Scenes/Restaurant.unity
+    guid: fb7d058eb5fec794a8c73c11eafe1c46
+  - enabled: 1
     path: Assets/Scenes/Bank.unity
     guid: 878c7ee77d577f24e802447806e5d317
   m_configObjects: {}
