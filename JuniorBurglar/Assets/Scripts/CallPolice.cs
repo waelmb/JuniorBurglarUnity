@@ -10,6 +10,9 @@ public class CallPolice : MonoBehaviour
     GameObject player;
     GameObject phone;
     float step;
+    public int radius = 2;
+    public float speed = 0.001f;
+
 
     // Start is called before the first frame update
     void Start()
@@ -23,13 +26,13 @@ public class CallPolice : MonoBehaviour
     void Update()
     {
         
-        if (Vector3.Distance (nurse.transform.position, player.transform.position) <= 2) {
+        if (Vector3.Distance (nurse.transform.position, player.transform.position) <= radius) {
             call = true;
         }
         if (call == true) {
             Debug.Log("call = true");
             
-            nurse.transform.position = Vector2.MoveTowards(nurse.transform.position, phone.transform.position, 0.001F);
+            nurse.transform.position = Vector2.MoveTowards(nurse.transform.position, phone.transform.position, speed);
         }
     }
 }
