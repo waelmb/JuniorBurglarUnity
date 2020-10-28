@@ -6,4 +6,9 @@ using UnityEngine;
 public class Item : ScriptableObject
 {
     new public string name = "New Item";
+    public string description;
+    public int dex;
+    public int str;
+    public Sprite artwork;
+    public bool isDefaultItem = false;
 }
