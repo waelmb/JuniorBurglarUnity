@@ -2,6 +2,8 @@
 
 public class CharacterStats : MonoBehaviour
 {
-    public Stat Speed;
-    public Stat Str;
+    public Stat dex;
+    public Stat str;
+
+   
 }

@@ -6,7 +6,8 @@ using UnityEngine;
 public class Equipment : Item
 {
     public EquipmentSlot equipSlot;
-
+    public int dex;
+    public int str;
 
     public override void Use()
     {
