@@ -19,4 +19,8 @@ public class Item : ScriptableObject
         //use the item
         UnityEngine.Debug.Log("using item: " + name);
     }
+
+    public void RemoveFromInventory() {
+        Inventory.instance.Remove(this);
+    }
 }
