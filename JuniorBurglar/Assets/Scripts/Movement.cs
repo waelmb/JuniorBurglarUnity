@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Movement : MonoBehaviour
 {
@@ -21,6 +22,12 @@ public class Movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //disable movement when a UI button is clicked
+        if(EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
+
         move();
 
         flipSprite();

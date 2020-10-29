@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "Item", menuName = "Item", order = 3)]
@@ -11,4 +12,11 @@ public class Item : ScriptableObject
     public int str;
     public Sprite artwork;
     public bool isDefaultItem = false;
+
+    //Method is virtual, aka defined by subclasses
+    public virtual void Use()
+    {
+        //use the item
+        UnityEngine.Debug.Log("using item: " + name);
+    }
 }

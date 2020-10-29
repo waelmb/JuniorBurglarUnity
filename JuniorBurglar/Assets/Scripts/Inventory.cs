@@ -28,7 +28,9 @@ public class Inventory : MonoBehaviour
 
     public bool Add(Item item)
     {
-        if(items.Count >= space)
+        UnityEngine.Debug.Log("Adding item: " + item.name);
+
+        if (items.Count >= space)
         {
             UnityEngine.Debug.Log("Not enough room.");
             return false;
