@@ -6,9 +6,11 @@ public class CallPolice : MonoBehaviour
 {
     
     bool call = false;
+    bool pastDoor = false;
     GameObject nurse;
     GameObject player;
     GameObject phone;
+    GameObject door;
     float step;
     public int radius = 2;
     public float speed = 0.001f;
@@ -20,18 +22,26 @@ public class CallPolice : MonoBehaviour
         nurse = GameObject.FindWithTag("Nurse");
         player = GameObject.FindWithTag("Player");
         phone = GameObject.FindWithTag("Phone");
+        door = GameObject.FindWithTag("Door");
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-        if (Vector3.Distance (nurse.transform.position, player.transform.position) <= radius) {
+        //Debug.Log(nurse.transform.position);
+        if (Vector3.Distance(nurse.transform.position, player.transform.position) <= radius) {
             call = true;
         }
+
         if (call == true) {
-            Debug.Log("call = true");
-            
+            nurse.transform.position = Vector2.MoveTowards(nurse.transform.position, door.transform.position, speed);
+            if (Vector3.Distance(nurse.transform.position, door.transform.position) <= 0.5) {
+                call = false;
+                pastDoor = true;
+            }
+        }
+
+        if (pastDoor == true) {
             nurse.transform.position = Vector2.MoveTowards(nurse.transform.position, phone.transform.position, speed);
         }
     }
