@@ -7,6 +7,7 @@ public class CallPolice : MonoBehaviour
     
     bool call = false;
     bool pastDoor = false;
+    bool callCalled = false;
     GameObject nurse;
     GameObject player;
     GameObject phone;
@@ -29,7 +30,7 @@ public class CallPolice : MonoBehaviour
     void Update()
     {
         //Debug.Log(nurse.transform.position);
-        if (Vector3.Distance(nurse.transform.position, player.transform.position) <= radius) {
+        if (Vector3.Distance(nurse.transform.position, player.transform.position) <= radius && pastDoor == false) {
             call = true;
         }
 
