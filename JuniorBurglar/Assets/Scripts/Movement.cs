@@ -23,10 +23,10 @@ public class Movement : MonoBehaviour
     void Update()
     {
         //disable movement when a UI button is clicked
-        if(EventSystem.current.IsPointerOverGameObject())
+        /*if(EventSystem.current.IsPointerOverGameObject())
         {
             return;
-        }
+        }*/
 
         move();
 

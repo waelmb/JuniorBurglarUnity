@@ -16,6 +16,9 @@ public class InventoryUI : MonoBehaviour
         inventory = Inventory.instance;
         inventory.onItemChangedCallback += UpdateUI;
         slots = itemsParent.GetComponentsInChildren<InventorySlot>();
+
+        //update inventory
+        Inventory.instance.SceneSwitched();
     }
 
     // Update is called once per frame
@@ -32,9 +35,9 @@ public class InventoryUI : MonoBehaviour
         UnityEngine.Debug.Log("UpdateUI");
         for(int i = 0; i < slots.Length; i++)
         {
-            if(i < inventory.items.Count)
+            if(i < Inventory.items.Count)
             {
-                slots[i].AddItem(inventory.items[i]);
+                slots[i].AddItem(Inventory.items[i]);
             }
             else
             {

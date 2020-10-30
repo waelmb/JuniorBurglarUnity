@@ -22,7 +22,7 @@ public class Inventory : MonoBehaviour
     public delegate void OnItemChanged();
     public OnItemChanged onItemChangedCallback;
 
-    public List<Item> items = new List<Item>();
+    static public List<Item> items = new List<Item>();
 
     public int space = 6;
 
@@ -50,6 +50,15 @@ public class Inventory : MonoBehaviour
     {
         items.Remove(item);
 
+        if (onItemChangedCallback != null)
+        {
+            onItemChangedCallback.Invoke();
+        }
+    }
+
+    public void SceneSwitched()
+    {
+        UnityEngine.Debug.Log("Inventory: SceneSwitched. Count: " + items.Count);
         if (onItemChangedCallback != null)
         {
             onItemChangedCallback.Invoke();
