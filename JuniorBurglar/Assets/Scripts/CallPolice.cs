@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CallPolice : MonoBehaviour
 {
@@ -29,7 +30,7 @@ public class CallPolice : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log(nurse.transform.position);
+        Debug.Log(Vector3.Distance(nurse.transform.position, phone.transform.position));
         if (Vector3.Distance(nurse.transform.position, player.transform.position) <= radius && pastDoor == false) {
             call = true;
         }
@@ -44,6 +45,11 @@ public class CallPolice : MonoBehaviour
 
         if (pastDoor == true) {
             nurse.transform.position = Vector2.MoveTowards(nurse.transform.position, phone.transform.position, speed);
+        }
+
+        if (Vector3.Distance(nurse.transform.position, phone.transform.position) <= 0.1) {
+            Debug.Log("here");
+            SceneManager.LoadScene("Tutorialville");
         }
     }
 }
