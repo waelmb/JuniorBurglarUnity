@@ -49,6 +49,7 @@ public class CallPolice : MonoBehaviour
         if (Vector3.Distance(nurse.transform.position, phone.transform.position) <= 0.1) {
             Debug.Log("here");
             SceneManager.LoadScene("Tutorialville");
+            CoinUpdate.coinAmount -= 5;
         }
     }
 }
