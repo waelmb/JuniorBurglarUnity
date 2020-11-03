@@ -5,5 +5,4 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Equipment", menuName = "Inventory/Boots")]
 public class Boots : Equipment
 {
-    float speed;
 }

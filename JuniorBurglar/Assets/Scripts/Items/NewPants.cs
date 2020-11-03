@@ -5,5 +5,4 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Equipment", menuName = "Inventory/Pants")]
 public class NewPants : Equipment
 {
-    new public string name;
 }

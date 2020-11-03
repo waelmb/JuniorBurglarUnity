@@ -11,7 +11,9 @@ public class Stat
     private List<int> modifiers = new List<int>();
 
     public int getValue() {
-        return baseValue;
+        int finalValue = baseValue;
+        modifiers.ForEach(x => finalValue += x);
+        return finalValue;
     }
 
     public void AddModifier(int modifier){

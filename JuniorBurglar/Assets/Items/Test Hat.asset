@@ -14,9 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Test Hat
   description: 
-  dex: 0
-  str: 0
   artwork: {fileID: 21300000, guid: 363d05e319619744aad131845d776c31, type: 3}
+  dex:
+    baseValue: 1
+  str:
+    baseValue: 1
   isDefaultItem: 0
   equipSlot: 0
-  name: 
+  dexmodifier: 1
+  strmodifier: 1

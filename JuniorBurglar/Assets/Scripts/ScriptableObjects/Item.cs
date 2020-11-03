@@ -10,6 +10,8 @@ public class Item : ScriptableObject
     new public string name = "New Item";
     public string description;
     public Sprite artwork;
+    public Stat dex;
+    public Stat str;
     public bool isDefaultItem = false;
 
     //Method is virtual, aka defined by subclasses
