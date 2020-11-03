@@ -8,6 +8,7 @@ public class ItemPickup : MonoBehaviour
     private bool pickUpallowed;
     //private Text pickupText;
     public Item item;
+    public int value=0;
 
     // Start is called before the first frame update
     void Start()
@@ -19,8 +20,10 @@ public class ItemPickup : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (pickUpallowed && Input.GetKeyDown(KeyCode.E))
+        if (pickUpallowed && Input.GetKeyDown(KeyCode.E)) {
             PickUp();
+            CoinUpdate.coinAmount += value;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

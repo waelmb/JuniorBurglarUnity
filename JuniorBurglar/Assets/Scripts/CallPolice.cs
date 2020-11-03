@@ -8,7 +8,6 @@ public class CallPolice : MonoBehaviour
     
     bool call = false;
     bool pastDoor = false;
-    bool callCalled = false;
     GameObject nurse;
     GameObject player;
     GameObject phone;

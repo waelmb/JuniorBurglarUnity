@@ -8,6 +8,7 @@ TagManager:
   - Phone
   - Door
   - Storage
+  - Money
   layers:
   - Default
   - TransparentFX
