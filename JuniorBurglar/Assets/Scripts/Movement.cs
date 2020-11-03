@@ -5,9 +5,10 @@ using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Movement : MonoBehaviour
+public class Movement : PlayerStats
 {
-    public float RunSpeed = 3f;
+    
+    public float RunSpeed = 3f ;
     public bool isFacingRight = false;
 
     float horizontalInput = 0f;
@@ -36,6 +37,7 @@ public class Movement : MonoBehaviour
 
     void move()
     {
+        
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
         //Movement
@@ -48,14 +50,14 @@ public class Movement : MonoBehaviour
 
         if(horizontalInput > 0)
         {
-            transform.Translate(horizontal * RunSpeed * Time.deltaTime * -1f);
+            transform.Translate(horizontal * (RunSpeed + IncreaseSpeed()) * Time.deltaTime * -1f);
         }
         else
         {
-            transform.Translate(horizontal * RunSpeed * Time.deltaTime);
+            transform.Translate(horizontal * (RunSpeed + IncreaseSpeed()) * Time.deltaTime);
         }
         
-        transform.Translate(vertical * RunSpeed * Time.deltaTime);
+        transform.Translate(vertical * (RunSpeed + IncreaseSpeed()) * Time.deltaTime);
         //GetComponent<Rigidbody2D>().MovePosition(transform.position + position * RunSpeed * Time.deltaTime);
 
     }
