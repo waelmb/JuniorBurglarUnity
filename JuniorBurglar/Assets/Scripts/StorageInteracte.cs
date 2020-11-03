@@ -8,6 +8,7 @@ public class StorageInteracte : MonoBehaviour
     GameObject player;
     GameObject storage;
     public static bool isInRange;
+    public GameObject textUI;
 
     #region Singleton 
     public static StorageInteracte instance;
@@ -35,10 +36,12 @@ public class StorageInteracte : MonoBehaviour
         if (Vector3.Distance(storage.transform.position, player.transform.position) <= radius)
         {
             isInRange = true;
+            textUI.SetActive(true);
         }
         else
         {
             isInRange = false;
+            textUI.SetActive(false);
         }
 
         //UnityEngine.Debug.Log("StorageInteracte: isInRange " + isInRange);
