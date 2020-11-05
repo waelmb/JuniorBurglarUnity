@@ -709,7 +709,7 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: Try to steal as many items and kidnap as many people as possible. Watch
     out for the Father! If you get too close, he will attempt to call the police
-    and you have to escape before she reaches the phone and calls them.
+    and you have to escape before he reaches the phone and calls them.
 --- !u!222 &1296631795
 CanvasRenderer:
   m_ObjectHideFlags: 0
