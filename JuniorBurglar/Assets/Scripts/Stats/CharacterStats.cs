@@ -1,17 +1,90 @@
 ﻿using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class CharacterStats : MonoBehaviour
 {
     public Stat dex;
     public Stat str;
 
-    /*private void Update()
+    public float IncreaseSpeed(float runspeed)
     {
-        *//*dex.GetValue();*//*
-    }*/
+        float x = dex.GetValue();
+        runspeed += x;
+        //UnityEngine.Debug.Log("Current run speed value: " + x);
+        return runspeed;
+    }
 
-    public int IncreaseSpeed()
+    public float IncreaseStrength(float strength) {
+        float x = str.GetValue();
+        return x;
+    }
+
+
+    public float RunSpeed = 1f;
+    public bool isFacingRight = false;
+
+    float horizontalInput = 0f;
+    float verticalInput = 0f;
+
+    // Start is called before the first frame update
+    void Start()
     {
-        return dex.GetValue();
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        //disable movement when a UI button is clicked
+        if (EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
+
+        move();
+
+        flipSprite();
+
+        IncreaseSpeed(RunSpeed);
+
+    }
+
+
+    void move()
+    {
+
+        horizontalInput = Input.GetAxis("Horizontal");
+        verticalInput = Input.GetAxis("Vertical");
+        //Movement
+        Vector3 horizontal = new Vector3(horizontalInput, 0.0f, 0.0f);
+        Vector3 vertical = new Vector3(0.0f, verticalInput, 0.0f);
+        //UnityEngine.Debug.Log(horizontal);
+        //UnityEngine.Debug.Log(transform.position);
+        //transform.position = transform.position + horizontal * RunSpeed * Time.deltaTime;
+        //transform.position = transform.position + vertical * RunSpeed * Time.deltaTime;
+
+        if (horizontalInput > 0)
+        {
+            transform.Translate(horizontal * (IncreaseSpeed(RunSpeed)) * Time.deltaTime * -1f);
+        }
+        else
+        {
+            transform.Translate(horizontal * (IncreaseSpeed(RunSpeed)) * Time.deltaTime);
+        }
+
+        transform.Translate(vertical * (IncreaseSpeed(RunSpeed)) * Time.deltaTime);
+        //GetComponent<Rigidbody2D>().MovePosition(transform.position + position * RunSpeed * Time.deltaTime);
+        //UnityEngine.Debug.Log(verticalInput);
+
+    }
+
+    void flipSprite()
+    {
+        //flip the sprite
+        if ((horizontalInput < 0 && isFacingRight) || (horizontalInput > 0 && !isFacingRight))
+        {
+            isFacingRight = !isFacingRight;
+            transform.Rotate(new Vector3(0, 180, 0));
+        }
     }
 }

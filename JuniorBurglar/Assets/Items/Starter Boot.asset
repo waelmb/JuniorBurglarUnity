@@ -14,7 +14,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Starter Boot
   description: 
-  dex: 0
-  str: 0
   artwork: {fileID: 21300000, guid: 0247ccd14d9bc9b49a06e9df91feaaa4, type: 3}
+  dex:
+    baseValue: 0
+  str:
+    baseValue: 0
   isDefaultItem: 0
+  equipSlot: 0
+  dexmodifier: 0
+  strmodifier: 0

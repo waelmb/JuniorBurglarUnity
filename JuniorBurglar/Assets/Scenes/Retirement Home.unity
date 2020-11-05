@@ -10178,6 +10178,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4790607024693925199, guid: 51fa61f2b652d9f4484c2e146b9c9c0a,
+        type: 3}
+      propertyPath: RunSpeed
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4790607024693925199, guid: 51fa61f2b652d9f4484c2e146b9c9c0a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8672148631859053360, guid: 51fa61f2b652d9f4484c2e146b9c9c0a,
         type: 3}
       propertyPath: space
@@ -10185,7 +10195,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
-    - {fileID: -2697066480262129938, guid: 51fa61f2b652d9f4484c2e146b9c9c0a, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 51fa61f2b652d9f4484c2e146b9c9c0a, type: 3}
 --- !u!1 &904511726
 GameObject:
@@ -10350,7 +10359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: a8661f2609a8ca24689261e31a3d3f88, type: 2}
-  value: 10
+  value: 0
 --- !u!61 &1035710524
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10916,34 +10925,8 @@ MonoBehaviour:
     baseValue: 0
   str:
     baseValue: 0
---- !u!114 &1624788813
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1624788806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ced0ce62ea7d923479ddebe18a87f6aa, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1624788815
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1624788806}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d54086c87e6c0664493ee3235fb5df8d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dex:
-    baseValue: 0
-  str:
-    baseValue: 0
+  RunSpeed: 2.5
+  isFacingRight: 0
 --- !u!1 &1876905463 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2572577513095937374, guid: e617a5ba8cf259346b455f608089fea4,
@@ -11345,12 +11328,12 @@ PrefabInstance:
     - target: {fileID: 6436012022440893926, guid: 11bfaf821c3faee419a3815f57c03648,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7329787964795799557, guid: 11bfaf821c3faee419a3815f57c03648,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 11bfaf821c3faee419a3815f57c03648, type: 3}

@@ -7,8 +7,9 @@ using UnityEngine.EventSystems;
 
 public class Movement : PlayerStats
 {
-    
-    public float RunSpeed = 3f ;
+
+
+    /*public float RunSpeed = 2.5f;
     public bool isFacingRight = false;
 
     float horizontalInput = 0f;
@@ -17,27 +18,30 @@ public class Movement : PlayerStats
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
         //disable movement when a UI button is clicked
-        /*if(EventSystem.current.IsPointerOverGameObject())
+        if (EventSystem.current.IsPointerOverGameObject())
         {
             return;
-        }*/
+        }
 
         move();
 
         flipSprite();
 
+        RunSpeed = IncreaseSpeed(RunSpeed);
+
     }
+
 
     void move()
     {
-        
+
         horizontalInput = Input.GetAxis("Horizontal");
         verticalInput = Input.GetAxis("Vertical");
         //Movement
@@ -48,16 +52,16 @@ public class Movement : PlayerStats
         //transform.position = transform.position + horizontal * RunSpeed * Time.deltaTime;
         //transform.position = transform.position + vertical * RunSpeed * Time.deltaTime;
 
-        if(horizontalInput > 0)
+        if (horizontalInput > 0)
         {
-            transform.Translate(horizontal * (RunSpeed + IncreaseSpeed()) * Time.deltaTime * -1f);
+            transform.Translate(horizontal * (IncreaseSpeed(RunSpeed)) * Time.deltaTime * -1f);
         }
         else
         {
-            transform.Translate(horizontal * (RunSpeed + IncreaseSpeed()) * Time.deltaTime);
+            transform.Translate(horizontal * (IncreaseSpeed(RunSpeed)) * Time.deltaTime);
         }
-        
-        transform.Translate(vertical * (RunSpeed + IncreaseSpeed()) * Time.deltaTime);
+
+        transform.Translate(vertical * (IncreaseSpeed(RunSpeed)) * Time.deltaTime);
         //GetComponent<Rigidbody2D>().MovePosition(transform.position + position * RunSpeed * Time.deltaTime);
 
     }
@@ -70,5 +74,5 @@ public class Movement : PlayerStats
             isFacingRight = !isFacingRight;
             transform.Rotate(new Vector3(0, 180, 0));
         }
-    }
+    }*/
 }

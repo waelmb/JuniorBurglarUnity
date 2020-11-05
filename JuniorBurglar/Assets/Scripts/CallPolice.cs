@@ -33,7 +33,7 @@ public class CallPolice : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(Vector3.Distance(nurse.transform.position, phone.transform.position));
+        //Debug.Log(Vector3.Distance(nurse.transform.position, phone.transform.position));
         if (Vector3.Distance(nurse.transform.position, player.transform.position) <= radius && pastDoor == false) {
             call = true;
             text.enabled = true;

@@ -31,11 +31,8 @@ public class InventorySlot : MonoBehaviour
 
     public void UseItem()
     {
-        UnityEngine.Debug.Log("InventorySlot: UseItem: " + item.name);
-        // UnityEngine.Debug.Log("UseItem: " + item.name);
-        //  if (item != null)
-        // {
+
         item.Use();
-       // }
+
     }
 }

@@ -18,8 +18,8 @@ MonoBehaviour:
   dex:
     baseValue: 0
   str:
-    baseValue: 0
+    baseValue: 1
   isDefaultItem: 0
   equipSlot: 0
-  dexmodifier: 5
+  dexmodifier: 0.25
   strmodifier: 1

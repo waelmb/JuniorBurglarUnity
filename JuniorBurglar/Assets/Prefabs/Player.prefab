@@ -141,12 +141,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4790607024693925191}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7b960bd5ae593dc418b3e61659318a49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RunSpeed: 3
+  dex:
+    baseValue: 0
+  str:
+    baseValue: 0
+  RunSpeed: 1
   isFacingRight: 0
 --- !u!114 &8672148631859053360
 MonoBehaviour:
@@ -189,3 +193,5 @@ MonoBehaviour:
     baseValue: 1
   str:
     baseValue: 1
+  RunSpeed: 2.5
+  isFacingRight: 0

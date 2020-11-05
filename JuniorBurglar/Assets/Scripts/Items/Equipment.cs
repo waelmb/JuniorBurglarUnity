@@ -6,8 +6,8 @@ using UnityEngine;
 public class Equipment : Item
 {
     public EquipmentSlot equipSlot;
-    public int dexmodifier;
-    public int strmodifier;
+    public float dexmodifier;
+    public float strmodifier;
 
     public override void Use()
     {

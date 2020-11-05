@@ -8,21 +8,22 @@ public class Stat
     [SerializeField]
     private int baseValue;
 
-    private List<int> modifiers = new List<int>();
+    private List<float> modifiers = new List<float>();
 
-    public int GetValue() {
-        int finalValue = baseValue;
+    public float GetValue() {
+        float finalValue = baseValue;
         modifiers.ForEach(x => finalValue += x);
+        UnityEngine.Debug.Log("This is the base value: "  + baseValue);
         return finalValue;
     }
 
-    public void AddModifier(int modifier){
+    public void AddModifier(float modifier){
         if (modifier != 0) {
             modifiers.Add(modifier);
         }
     }
 
-    public void RemoveModifier(int modifier) {
+    public void RemoveModifier(float modifier) {
         if (modifier != 0) {
             modifiers.Remove(modifier);
         }
