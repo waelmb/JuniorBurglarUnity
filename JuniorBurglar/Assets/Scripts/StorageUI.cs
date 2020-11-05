@@ -24,6 +24,7 @@ public class StorageUI : MonoBehaviour
     {
         if (Input.GetButtonDown("Storage") && StorageInteracte.isInRange)
         {
+            UpdateUI();
             storageUI.SetActive(!storageUI.activeSelf);
         }
 
@@ -35,7 +36,7 @@ public class StorageUI : MonoBehaviour
 
     void UpdateUI()
     {
-        UnityEngine.Debug.Log("Storage: UpdateUI");
+        UnityEngine.Debug.Log("Storage: UpdateUI: count " + Storage.items.Count);
         for (int i = 0; i < slots.Length; i++)
         {
             if (i < Storage.items.Count)

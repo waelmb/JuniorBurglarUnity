@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class InventorySlot : MonoBehaviour
 {
-    Item item;
+    protected Item item;
     public Image icon;
     public Button removeButton;
 
@@ -31,10 +31,11 @@ public class InventorySlot : MonoBehaviour
 
     public void UseItem()
     {
-       // UnityEngine.Debug.Log("UseItem: " + item.name);
-      //  if (item != null)
-       // {
-            item.Use();
+        UnityEngine.Debug.Log("InventorySlot: UseItem: " + item.name);
+        // UnityEngine.Debug.Log("UseItem: " + item.name);
+        //  if (item != null)
+        // {
+        item.Use();
        // }
     }
 }

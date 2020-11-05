@@ -54,7 +54,7 @@ public class Storage : MonoBehaviour
         }
     }
 
-    public void SceneSwitched()
+    public void UpdateStorageUI()
     {
         UnityEngine.Debug.Log("Storage: SceneSwitched. Count: " + items.Count);
         if (onItemChangedCallback != null)

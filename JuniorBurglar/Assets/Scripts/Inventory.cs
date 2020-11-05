@@ -56,7 +56,7 @@ public class Inventory : MonoBehaviour
         }
     }
 
-    public void SceneSwitched()
+    public void UpdateInventoryUI()
     {
         UnityEngine.Debug.Log("Inventory: SceneSwitched. Count: " + items.Count);
         if (onItemChangedCallback != null)

@@ -11,7 +11,7 @@ public class OnSceneLoad : MonoBehaviour
         //update inventory
         if(Inventory.instance != null)
         {
-            Inventory.instance.SceneSwitched();
+            Inventory.instance.UpdateInventoryUI();
 
         }
     }
