@@ -1240,7 +1240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   radius: 2
-  speed: 0.01
+  speed: 0.002
   text: {fileID: 1781305724}
 --- !u!1 &1014393164
 GameObject:
