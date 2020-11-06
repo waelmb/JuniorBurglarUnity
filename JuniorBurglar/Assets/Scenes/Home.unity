@@ -143,6 +143,7 @@ MonoBehaviour:
   removeButton: {fileID: 425140168}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &14132160 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592169178646078, guid: f65483c141f60cb4a85b42ee882addae,
@@ -189,6 +190,7 @@ MonoBehaviour:
   removeButton: {fileID: 1831006392}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!1001 &57403060
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -853,6 +855,7 @@ MonoBehaviour:
   removeButton: {fileID: 918295133}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &132989348 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592170706935751, guid: f65483c141f60cb4a85b42ee882addae,
@@ -1650,6 +1653,7 @@ MonoBehaviour:
   removeButton: {fileID: 1027150861}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!1 &417030733
 GameObject:
   m_ObjectHideFlags: 0
@@ -1895,6 +1899,7 @@ MonoBehaviour:
   removeButton: {fileID: 578752347}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &434004468 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592170706935751, guid: f65483c141f60cb4a85b42ee882addae,
@@ -1929,6 +1934,7 @@ MonoBehaviour:
   removeButton: {fileID: 1264582718}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &462333294 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592170706935751, guid: f65483c141f60cb4a85b42ee882addae,
@@ -1963,6 +1969,7 @@ MonoBehaviour:
   removeButton: {fileID: 1196490111}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &499544740 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592170706935751, guid: f65483c141f60cb4a85b42ee882addae,
@@ -2031,6 +2038,7 @@ MonoBehaviour:
   removeButton: {fileID: 2078718769}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!1 &572743387 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5743592170453447642, guid: f65483c141f60cb4a85b42ee882addae,
@@ -2053,6 +2061,7 @@ MonoBehaviour:
   removeButton: {fileID: 1338753790}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &578752347 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592169178646078, guid: f65483c141f60cb4a85b42ee882addae,
@@ -2268,6 +2277,7 @@ MonoBehaviour:
   removeButton: {fileID: 232461005}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &669069281 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592170706935751, guid: f65483c141f60cb4a85b42ee882addae,
@@ -11719,6 +11729,7 @@ MonoBehaviour:
   removeButton: {fileID: 1553740075}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &885666201 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592170706935751, guid: f65483c141f60cb4a85b42ee882addae,
@@ -11753,6 +11764,7 @@ MonoBehaviour:
   removeButton: {fileID: 1975534777}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &918295133 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592169178646078, guid: f65483c141f60cb4a85b42ee882addae,
@@ -11787,6 +11799,7 @@ MonoBehaviour:
   removeButton: {fileID: 234460690}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!1001 &964058747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12159,6 +12172,7 @@ MonoBehaviour:
   removeButton: {fileID: 1657520268}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &1072837844 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592170706935751, guid: f65483c141f60cb4a85b42ee882addae,
@@ -12205,6 +12219,7 @@ MonoBehaviour:
   removeButton: {fileID: 1086741321}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &1102682466 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592170706935751, guid: f65483c141f60cb4a85b42ee882addae,
@@ -12396,6 +12411,7 @@ MonoBehaviour:
   removeButton: {fileID: 370876579}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!1 &1147100050
 GameObject:
   m_ObjectHideFlags: 0
@@ -12512,6 +12528,7 @@ MonoBehaviour:
   removeButton: {fileID: 376358852}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &1196490111 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592169178646078, guid: f65483c141f60cb4a85b42ee882addae,
@@ -12558,6 +12575,7 @@ MonoBehaviour:
   removeButton: {fileID: 91899876}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &1243825057 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592169178646078, guid: f65483c141f60cb4a85b42ee882addae,
@@ -12614,6 +12632,7 @@ MonoBehaviour:
   removeButton: {fileID: 14132160}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!1001 &1256914840
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12793,6 +12812,7 @@ MonoBehaviour:
   removeButton: {fileID: 1380534183}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!1001 &1304367199
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -13525,6 +13545,7 @@ MonoBehaviour:
   removeButton: {fileID: 1611748675}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &1398944072 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592170706935751, guid: f65483c141f60cb4a85b42ee882addae,
@@ -14006,6 +14027,7 @@ MonoBehaviour:
   removeButton: {fileID: 867443907}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!1 &1504568661 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5743592170453447642, guid: f65483c141f60cb4a85b42ee882addae,
@@ -14028,6 +14050,7 @@ MonoBehaviour:
   removeButton: {fileID: 1243825057}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &1526607229 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592170706935751, guid: f65483c141f60cb4a85b42ee882addae,
@@ -14445,7 +14468,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 668f54627656fc3469de3b7f00f3576d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: a8661f2609a8ca24689261e31a3d3f88, type: 2}
+  item: {fileID: 11400000, guid: e4de9a040fcef4589bda4a6a7576497d, type: 2}
   value: 10
 --- !u!212 &1580055150
 SpriteRenderer:
@@ -14702,6 +14725,7 @@ MonoBehaviour:
   removeButton: {fileID: 1706700608}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!1001 &1657120653
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -14881,6 +14905,7 @@ MonoBehaviour:
   removeButton: {fileID: 25512730}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &1694445404 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592169178646078, guid: f65483c141f60cb4a85b42ee882addae,
@@ -16315,6 +16340,84 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1839087522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1839087523}
+  - component: {fileID: 1839087525}
+  - component: {fileID: 1839087524}
+  m_Layer: 5
+  m_Name: SoldItemText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1839087523
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839087522}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 57403062}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0.0000076293945, y: 151.6}
+  m_SizeDelta: {x: 403.8065, y: 60.86155}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1839087524
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839087522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 20
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 
+--- !u!222 &1839087525
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1839087522}
+  m_CullTransparentMesh: 0
 --- !u!114 &1852326083 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592170706935751, guid: f65483c141f60cb4a85b42ee882addae,
@@ -16651,6 +16754,7 @@ MonoBehaviour:
   removeButton: {fileID: 200518717}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!1 &1913732205 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5743592170453447642, guid: f65483c141f60cb4a85b42ee882addae,
@@ -16673,6 +16777,7 @@ MonoBehaviour:
   removeButton: {fileID: 79538544}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!1001 &1923242382
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16840,6 +16945,7 @@ MonoBehaviour:
   removeButton: {fileID: 1104608567}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &1975534777 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592169178646078, guid: f65483c141f60cb4a85b42ee882addae,
@@ -16886,6 +16992,7 @@ MonoBehaviour:
   removeButton: {fileID: 1234710894}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &1991068347 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5743592169178646078, guid: f65483c141f60cb4a85b42ee882addae,
@@ -17194,6 +17301,7 @@ MonoBehaviour:
   removeButton: {fileID: 612892422}
   storageUI: {fileID: 290353128}
   inventoryUI: {fileID: 57403068}
+  text: {fileID: 1839087524}
 --- !u!114 &2064970230 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4030787987696438917, guid: 042a9adee3d2b5c4cb7e9f2a0707c689,
