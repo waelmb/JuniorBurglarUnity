@@ -25,12 +25,44 @@ public class EquipmentManager : MonoBehaviour
     {
         inventory = Inventory.instance;
 
-       int numSlots = System.Enum.GetNames(typeof(EquipmentSlot)).Length;
-       
-       if(currentEquipment == null)
-       {
+        int numSlots = System.Enum.GetNames(typeof(EquipmentSlot)).Length;
+
+        if (currentEquipment == null)
+        {
             currentEquipment = new Equipment[numSlots];
-       }
+        }
+        else
+        {
+            OnSceneChanged(numSlots);
+        }
+    }
+
+    void OnSceneChanged(int numSlots)
+    {
+        Equipment[] temp = new Equipment[numSlots];
+
+        //unequip all
+        for (int i = 0; i < currentEquipment.Length; i++)
+        {
+            Equipment oldItem = currentEquipment[i];
+            temp[i] = oldItem;
+            if (onEquipmentChanged != null)
+            {
+                onEquipmentChanged.Invoke(null, oldItem);
+            }
+        }
+
+        //equip all
+        for (int i = 0; i < currentEquipment.Length; i++)
+        {
+            Equipment newItem = temp[i];
+            currentEquipment[i] = newItem;
+            if (onEquipmentChanged != null)
+            {
+                onEquipmentChanged.Invoke(newItem, null);
+            }
+        }
+
     }
 
     public void Equip(Equipment newItem) {

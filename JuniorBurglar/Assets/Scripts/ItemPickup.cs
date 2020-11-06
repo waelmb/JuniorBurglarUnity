@@ -47,9 +47,9 @@ public class ItemPickup : MonoBehaviour
     private void PickUp() {
         //Pickup Item
         UnityEngine.Debug.Log("picking up item: " + item.name);
-
+        /*float strength = PlayerStats.Strength;
         //check if item is an NPC
-        if (item.GetType() == typeof(NPCs) && item.str.GetValue() > PlayerStats.Strength)
+        if (item.GetType() == typeof(NPCs) && item.str.GetValue() > CharacterStats.IncreaseStrength(strength))
         {
             //deduct coins
             UnityEngine.Debug.Log("NPC is stronger, can't kidnap ");
@@ -59,7 +59,7 @@ public class ItemPickup : MonoBehaviour
             SceneManager.LoadScene("Tutorialville");
         }
         //attempt to add item
-        else if (Inventory.instance.Add(item))
+        else*/ if (Inventory.instance.Add(item))
         {
             Destroy(gameObject);
         }
