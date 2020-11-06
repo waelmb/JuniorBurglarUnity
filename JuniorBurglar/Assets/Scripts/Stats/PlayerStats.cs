@@ -6,7 +6,7 @@ using UnityEngine;
 public class PlayerStats : CharacterStats
 {
     public float RunSpeed = 2f;
-    public float Strength = 0;
+    static public float Strength = 0;
     public bool isFacingRight = false;
 
     float horizontalInput = 0f;

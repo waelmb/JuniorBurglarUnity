@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class ItemPickup : MonoBehaviour
 {
@@ -22,7 +23,7 @@ public class ItemPickup : MonoBehaviour
     {
         if (pickUpallowed && Input.GetKeyDown(KeyCode.E)) {
             PickUp();
-            CoinUpdate.coinAmount += value;
+            //CoinUpdate.coinAmount += value;
         }
     }
 
@@ -46,7 +47,19 @@ public class ItemPickup : MonoBehaviour
     private void PickUp() {
         //Pickup Item
         UnityEngine.Debug.Log("picking up item: " + item.name);
-        if(Inventory.instance.Add(item))
+
+        //check if item is an NPC
+        if (item.GetType() == typeof(NPCs) && item.str.GetValue() > PlayerStats.Strength)
+        {
+            //deduct coins
+            UnityEngine.Debug.Log("NPC is stronger, can't kidnap ");
+            CoinUpdate.coinAmount -= (int)item.str.GetValue();
+
+            //kick out
+            SceneManager.LoadScene("Tutorialville");
+        }
+        //attempt to add item
+        else if (Inventory.instance.Add(item))
         {
             Destroy(gameObject);
         }
