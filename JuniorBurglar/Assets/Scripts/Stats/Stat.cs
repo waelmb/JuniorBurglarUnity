@@ -13,7 +13,7 @@ public class Stat
     public float GetValue() {
         float finalValue = baseValue;
         modifiers.ForEach(x => finalValue += x);
-        UnityEngine.Debug.Log("This is the base value: "  + baseValue);
+        //UnityEngine.Debug.Log("This is the base value: "  + baseValue);
         return finalValue;
     }
 

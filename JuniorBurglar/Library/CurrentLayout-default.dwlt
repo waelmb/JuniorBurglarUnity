@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 127
+  controlID: 132
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 578
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -365,20 +365,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts/Stats
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Scripts/Stats
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\Enoc\Documents\GitHub\JuniorBurglarUnity\JuniorBurglar
+  m_LastProjectPath: C:\Users\Mikey\Documents\GitHub\JuniorBurglarUnity\JuniorBurglar
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 55}
-    m_SelectedIDs: 6c410000
-    m_LastClickedID: 16748
-    m_ExpandedIDs: 000000006c4100006e4100007041000000ca9a3b
+    m_SelectedIDs: 42420000
+    m_LastClickedID: 16962
+    m_ExpandedIDs: 00000000184200001a4200001c42000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -406,7 +406,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000006c4100006e41000070410000
+    m_ExpandedIDs: 00000000184200001a4200001c420000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -433,7 +433,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000000000000503a0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -529,9 +529,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ac3b0000
+      m_SelectedIDs: be310000
       m_LastClickedID: 0
-      m_ExpandedIDs: 2ae7ffff82e8ffff7aeaffffa8ebffffbaebffffc8ebfffff6ecffff2aeeffff5aefffff36f1ffff
+      m_ExpandedIDs: b0ebffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -593,7 +593,7 @@ MonoBehaviour:
   m_Position:
     m_Target: {x: -13.903669, y: 4.4736576, z: -4.778986}
     speed: 2
-    m_Value: {x: -14.09333, y: 4.666611, z: -4.7494364}
+    m_Value: {x: -13.903669, y: 4.4736576, z: -4.778986}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -645,7 +645,7 @@ MonoBehaviour:
   m_Size:
     m_Target: 7.8404117
     speed: 2
-    m_Value: 8.209855
+    m_Value: 7.8404117
   m_Ortho:
     m_Target: 1
     speed: 2

@@ -14,13 +14,15 @@ public class CharacterStats : MonoBehaviour
         return runspeed;
     }
 
-    public float IncreaseStrength(float strength) {
+    public float IncreaseStrength(float Strength) {
         float x = str.GetValue();
-        return x;
+        Strength += x;
+        return Strength;
     }
 
 
     public float RunSpeed = 1f;
+    public float Strength = 1;
     public bool isFacingRight = false;
 
     float horizontalInput = 0f;
@@ -47,6 +49,7 @@ public class CharacterStats : MonoBehaviour
 
         IncreaseSpeed(RunSpeed);
 
+        IncreaseStrength(Strength);
     }
 
 
