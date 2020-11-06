@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Old Man
   description: 
-  artwork: {fileID: 0}
+  artwork: {fileID: 21300000, guid: 693313590b5598c499dc4fb5c647d69c, type: 3}
   dex:
     baseValue: 0
   str:
