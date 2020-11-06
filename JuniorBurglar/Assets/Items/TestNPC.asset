@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13fd5263bde284ca486741e7734ee649, type: 3}
   m_Name: TestNPC
   m_EditorClassIdentifier: 
-  name: New Item
+  name: Old Man
   description: 
   artwork: {fileID: 0}
   dex:
     baseValue: 0
   str:
-    baseValue: 0
+    baseValue: 2
   isDefaultItem: 0
