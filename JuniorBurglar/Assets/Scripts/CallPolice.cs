@@ -42,6 +42,7 @@ public class CallPolice : MonoBehaviour
         if (call == true) {
             nurse.transform.position = Vector2.MoveTowards(nurse.transform.position, door.transform.position, speed);
             if (Vector3.Distance(nurse.transform.position, door.transform.position) <= 0.5) {
+                // Debug.Log("got here");
                 call = false;
                 pastDoor = true;
             }
