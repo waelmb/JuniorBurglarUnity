@@ -38,6 +38,7 @@ public class InventorySlotStorage : InventorySlot
                 text.text = "NPC sold, you were given " + (int) item.str.GetValue() + " coins in return!";
                 text.enabled = true;
                 storage.Remove(item);
+                StartCoroutine(LoadLevelAfterDelay(2F));
             }
         }
     }
@@ -47,4 +48,12 @@ public class InventorySlotStorage : InventorySlot
         UnityEngine.Debug.Log("InventorySlotStorage: onRemoveButton: " + item.name);
         Storage.instance.Remove(item);
     }
+
+    IEnumerator LoadLevelAfterDelay(float delay)
+    {
+        Debug.Log("Got to disable text");
+        yield return new WaitForSeconds(delay);
+        text.enabled = false;
+    }
+
 }
