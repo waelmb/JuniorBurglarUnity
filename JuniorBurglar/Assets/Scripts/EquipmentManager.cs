@@ -14,7 +14,7 @@ public class EquipmentManager : MonoBehaviour
     }
     #endregion
 
-    Equipment[] currentEquipment;
+    static Equipment[] currentEquipment;
 
     public delegate void OnEquipmentChanged(Equipment newItem, Equipment oldItem);
     public OnEquipmentChanged onEquipmentChanged;
@@ -26,7 +26,11 @@ public class EquipmentManager : MonoBehaviour
         inventory = Inventory.instance;
 
        int numSlots = System.Enum.GetNames(typeof(EquipmentSlot)).Length;
-       currentEquipment = new Equipment[numSlots];
+       
+       if(currentEquipment == null)
+       {
+            currentEquipment = new Equipment[numSlots];
+       }
     }
 
     public void Equip(Equipment newItem) {
