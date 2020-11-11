@@ -14,7 +14,7 @@ public class EquipmentManager : MonoBehaviour
     }
     #endregion
 
-    static Equipment[] currentEquipment;
+    public static Equipment[] currentEquipment;
 
     public delegate void OnEquipmentChanged(Equipment newItem, Equipment oldItem);
     public OnEquipmentChanged onEquipmentChanged;
@@ -105,6 +105,15 @@ public class EquipmentManager : MonoBehaviour
         // Keystroke U unequips all equipment.
         if (Input.GetKeyDown(KeyCode.U)) {
             UnequipAll();
+        }
+    }
+
+    public void UpdateEquipmentUI()
+    {
+        //UnityEngine.Debug.Log("Inventory: SceneSwitched. Count: " + items.Count);
+        if (onEquipmentChanged != null && currentEquipment != null)
+        {
+            onEquipmentChanged.Invoke(null, null);
         }
     }
 
