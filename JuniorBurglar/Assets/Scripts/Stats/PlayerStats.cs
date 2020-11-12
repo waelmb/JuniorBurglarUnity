@@ -75,6 +75,18 @@ public class PlayerStats : CharacterStats
         UnityEngine.Debug.Log("PlayerStats " + IncreaseSpeed(RunSpeed) + ", " + IncreaseStrength(Strength));
     }
 
+    public float getDexval() 
+    {
+        float x = IncreaseSpeed(RunSpeed);
+        return x;
+    }
+
+    public float getStrval()
+    {
+        float x = IncreaseStrength(Strength);
+        return x;
+    }
+
     void flipSprite()
     {
         //flip the sprite

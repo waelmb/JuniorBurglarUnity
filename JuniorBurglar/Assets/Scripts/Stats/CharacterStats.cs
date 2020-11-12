@@ -14,9 +14,22 @@ public class CharacterStats : MonoBehaviour
         return runspeed;
     }
 
-    public float IncreaseStrength(float Strength) {
+    public float IncreaseStrength(float Strength)
+    {
         float x = str.GetValue();
         Strength += x;
         return Strength;
     }
+
+   /* public float getDexVal()
+    {
+        float x = dex.GetValue();
+        return x;
+    }
+
+    public float getStrVal()
+    {
+        float x = str.GetValue();
+        return x;
+    }*/
 }
