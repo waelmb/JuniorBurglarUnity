@@ -77,13 +77,13 @@ public class PlayerStats : CharacterStats
 
     public float getDexval() 
     {
-        float x = IncreaseSpeed(RunSpeed);
+        float x = dex.GetValue();
         return x;
     }
 
     public float getStrval()
     {
-        float x = IncreaseStrength(Strength);
+        float x = str.GetValue();
         return x;
     }
 
