@@ -44,6 +44,8 @@ public class PlayerStats : CharacterStats
         move();
 
         flipSprite();
+
+        UnityEngine.Debug.Log("This is the dex: " + getDexval());
     }
 
 
