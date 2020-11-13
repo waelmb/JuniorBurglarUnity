@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: New Item
   description: 
-  artwork: {fileID: 21300000, guid: d86414d0f9dab17468a82adb2de3b623, type: 3}
+  artwork: {fileID: 21300000, guid: a7be8dc877c375c48886da753566669e, type: 3}
   dex:
     baseValue: 0
   str:

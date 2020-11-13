@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Park Cape
   description: 
-  artwork: {fileID: 21300000, guid: dbc56cf89844bb14a8839df57753a4db, type: 3}
+  artwork: {fileID: 21300000, guid: ed4b7974d7e4b89418c13e18000d0d8c, type: 3}
   dex:
     baseValue: 0
   str:
