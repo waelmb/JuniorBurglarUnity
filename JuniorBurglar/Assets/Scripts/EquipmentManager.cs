@@ -75,10 +75,12 @@ public class EquipmentManager : MonoBehaviour
             inventory.Add(oldItem);
         }
 
-        if (onEquipmentChanged != null) {
+        currentEquipment[slotIndex] = newItem;
+
+        if (onEquipmentChanged != null)
+        {
             onEquipmentChanged.Invoke(newItem, oldItem);
         }
-        currentEquipment[slotIndex] = newItem;
     }
 
     public void Unequip(int slotIndex) {
@@ -110,9 +112,10 @@ public class EquipmentManager : MonoBehaviour
 
     public void UpdateEquipmentUI()
     {
-        //UnityEngine.Debug.Log("Inventory: SceneSwitched. Count: " + items.Count);
+        UnityEngine.Debug.Log("EquipmentManager: UpdateEquipmentUI:");
         if (onEquipmentChanged != null && currentEquipment != null)
         {
+            UnityEngine.Debug.Log("Count: " + currentEquipment.Length);
             onEquipmentChanged.Invoke(null, null);
         }
     }

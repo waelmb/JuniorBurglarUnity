@@ -32,7 +32,7 @@ public class InventoryUI : MonoBehaviour
 
     void UpdateUI()
     {
-        //UnityEngine.Debug.Log("UpdateUI");
+        UnityEngine.Debug.Log("InventoryUI: UpdateUI");
         for(int i = 0; i < slots.Length; i++)
         {
             if(i < Inventory.items.Count)

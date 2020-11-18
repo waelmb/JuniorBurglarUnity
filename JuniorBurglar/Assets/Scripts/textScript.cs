@@ -14,7 +14,7 @@ public class textScript : MonoBehaviour
     void Update()
     {
         if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D)) {
-            Debug.Log("pressingKey");
+            //Debug.Log("pressingKey");
             Destroy(gameObject, 3F);
         }
     }

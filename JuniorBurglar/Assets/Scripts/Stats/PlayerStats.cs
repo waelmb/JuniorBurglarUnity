@@ -45,7 +45,7 @@ public class PlayerStats : CharacterStats
 
         flipSprite();
 
-        UnityEngine.Debug.Log("This is the dex: " + getDexval());
+        //UnityEngine.Debug.Log("This is the dex: " + getDexval());
     }
 
 
@@ -74,7 +74,7 @@ public class PlayerStats : CharacterStats
         transform.Translate(vertical * (IncreaseSpeed(RunSpeed)) * Time.deltaTime);
         //GetComponent<Rigidbody2D>().MovePosition(transform.position + position * RunSpeed * Time.deltaTime);
         //UnityEngine.Debug.Log(verticalInput);
-        UnityEngine.Debug.Log("PlayerStats " + IncreaseSpeed(RunSpeed) + ", " + IncreaseStrength(Strength));
+        //UnityEngine.Debug.Log("PlayerStats " + IncreaseSpeed(RunSpeed) + ", " + IncreaseStrength(Strength));
     }
 
     public float getDexval() 
