@@ -15,6 +15,14 @@ public class InventorySlotEquipment : InventorySlot
     {
         UnityEngine.Debug.Log("InventorySlotEquipment: UseItem: " + item.name);
 
+        for(int i = 0; i < EquipmentManager.currentEquipment.Length; i++)
+        {
+            if(EquipmentManager.currentEquipment[i] == item)
+            {
+                //UnityEngine.Debug.Log("item slot is " + i);
+                EquipmentManager.instance.Unequip(i);
+            }
+        }
         //unequip item and add to inventory
         //EquipmentManager.instance.Equip(this);
     }
