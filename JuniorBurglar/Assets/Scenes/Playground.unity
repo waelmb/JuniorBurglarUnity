@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 44584609}
   - component: {fileID: 44584608}
   - component: {fileID: 44584607}
+  - component: {fileID: 44584612}
   m_Layer: 0
   m_Name: kid
   m_TagString: Untagged
@@ -202,6 +203,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 79b437838c101c741aecb2d11d2943c1, type: 2}
   value: 0
+  locationValue: 2
+  destroyValue: 0
 --- !u!212 &44584610
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -266,6 +269,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &44584612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 44584606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e965a3bdc561144e3a259f562c8ecc03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 0
 --- !u!1 &46453413
 GameObject:
   m_ObjectHideFlags: 0
@@ -279,6 +295,7 @@ GameObject:
   - component: {fileID: 46453416}
   - component: {fileID: 46453415}
   - component: {fileID: 46453414}
+  - component: {fileID: 46453419}
   m_Layer: 0
   m_Name: cape2
   m_TagString: Untagged
@@ -347,6 +364,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: ee90dae0a2e001949aac9b6b62debe2a, type: 2}
   value: 0
+  locationValue: 2
+  destroyValue: 3
 --- !u!212 &46453417
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -411,6 +430,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &46453419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 46453413}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e965a3bdc561144e3a259f562c8ecc03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 3
 --- !u!1 &307340776
 GameObject:
   m_ObjectHideFlags: 0
@@ -424,6 +456,7 @@ GameObject:
   - component: {fileID: 307340779}
   - component: {fileID: 307340778}
   - component: {fileID: 307340777}
+  - component: {fileID: 307340782}
   m_Layer: 0
   m_Name: boots2
   m_TagString: Untagged
@@ -492,6 +525,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 35ee9bcd46688f44dbefb1447496beaf, type: 2}
   value: 0
+  locationValue: 2
+  destroyValue: 1
 --- !u!212 &307340780
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -556,6 +591,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &307340782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307340776}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e965a3bdc561144e3a259f562c8ecc03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 1
 --- !u!1 &357131215
 GameObject:
   m_ObjectHideFlags: 0
@@ -1333,6 +1381,7 @@ GameObject:
   - component: {fileID: 1152672717}
   - component: {fileID: 1152672716}
   - component: {fileID: 1152672715}
+  - component: {fileID: 1152672720}
   m_Layer: 0
   m_Name: hats2
   m_TagString: Untagged
@@ -1401,6 +1450,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: cef882fd42f383c4aaaf3fe1e566a498, type: 2}
   value: 0
+  locationValue: 2
+  destroyValue: 2
 --- !u!212 &1152672718
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1465,6 +1516,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1152672720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152672714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e965a3bdc561144e3a259f562c8ecc03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 2
 --- !u!1 &1296631792
 GameObject:
   m_ObjectHideFlags: 0
@@ -12039,6 +12103,7 @@ GameObject:
   - component: {fileID: 2015632918}
   - component: {fileID: 2015632917}
   - component: {fileID: 2015632916}
+  - component: {fileID: 2015632921}
   m_Layer: 0
   m_Name: pants2
   m_TagString: Untagged
@@ -12107,6 +12172,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: aa85190c2b9c236418dd714087557371, type: 2}
   value: 0
+  locationValue: 2
+  destroyValue: 4
 --- !u!212 &2015632919
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12171,3 +12238,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2015632921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2015632915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e965a3bdc561144e3a259f562c8ecc03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 4

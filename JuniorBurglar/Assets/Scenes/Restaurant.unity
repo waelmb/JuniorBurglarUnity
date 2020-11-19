@@ -9024,6 +9024,7 @@ GameObject:
   - component: {fileID: 1180636614}
   - component: {fileID: 1180636613}
   - component: {fileID: 1180636612}
+  - component: {fileID: 1180636617}
   m_Layer: 0
   m_Name: cape3
   m_TagString: Untagged
@@ -9092,6 +9093,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 5b549f8d6c4b6ff42af5bda6f3065bf8, type: 2}
   value: 0
+  locationValue: 1
+  destroyValue: 2
 --- !u!212 &1180636615
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9156,6 +9159,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1180636617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1180636611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 496089c31804b4275b56d48b49fbd1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 2
 --- !u!1001 &1202935278
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9344,6 +9360,7 @@ GameObject:
   - component: {fileID: 1575002906}
   - component: {fileID: 1575002905}
   - component: {fileID: 1575002904}
+  - component: {fileID: 1575002909}
   m_Layer: 0
   m_Name: boots3
   m_TagString: Untagged
@@ -9412,6 +9429,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: de6947a3a1fa55e4aa80e1a90ff5c590, type: 2}
   value: 0
+  locationValue: 1
+  destroyValue: 0
 --- !u!212 &1575002907
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9476,6 +9495,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1575002909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575002903}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 496089c31804b4275b56d48b49fbd1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 0
 --- !u!1001 &1577220249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9619,6 +9651,7 @@ GameObject:
   - component: {fileID: 1637864501}
   - component: {fileID: 1637864500}
   - component: {fileID: 1637864499}
+  - component: {fileID: 1637864504}
   m_Layer: 0
   m_Name: pants3
   m_TagString: Untagged
@@ -9687,6 +9720,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 205f35acc0924d648b04fed563861c2f, type: 2}
   value: 0
+  locationValue: 1
+  destroyValue: 4
 --- !u!212 &1637864502
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9751,6 +9786,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1637864504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637864498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 496089c31804b4275b56d48b49fbd1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 4
 --- !u!1 &1648953173
 GameObject:
   m_ObjectHideFlags: 0
@@ -9988,6 +10036,7 @@ GameObject:
   - component: {fileID: 1722035892}
   - component: {fileID: 1722035891}
   - component: {fileID: 1722035890}
+  - component: {fileID: 1722035895}
   m_Layer: 0
   m_Name: kid
   m_TagString: Untagged
@@ -10056,6 +10105,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 48b006a9bf0d10f4da54a09abed1e1f0, type: 2}
   value: 0
+  locationValue: 1
+  destroyValue: 3
 --- !u!212 &1722035893
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10120,6 +10171,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1722035895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1722035889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 496089c31804b4275b56d48b49fbd1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 3
 --- !u!1 &1821406124
 GameObject:
   m_ObjectHideFlags: 0
@@ -10133,6 +10197,7 @@ GameObject:
   - component: {fileID: 1821406127}
   - component: {fileID: 1821406126}
   - component: {fileID: 1821406125}
+  - component: {fileID: 1821406130}
   m_Layer: 0
   m_Name: hats3
   m_TagString: Untagged
@@ -10201,6 +10266,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 7c480514189b94b4dad90ca7b03052d9, type: 2}
   value: 0
+  locationValue: 1
+  destroyValue: 1
 --- !u!212 &1821406128
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10265,6 +10332,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1821406130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1821406124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 496089c31804b4275b56d48b49fbd1fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  number: 1
 --- !u!1 &2129612200
 GameObject:
   m_ObjectHideFlags: 0

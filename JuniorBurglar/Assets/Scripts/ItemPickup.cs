@@ -10,6 +10,8 @@ public class ItemPickup : MonoBehaviour
     //private Text pickupText;
     public Item item;
     public int value=0;
+    public int locationValue;
+    public int destroyValue;
 
     // Start is called before the first frame update
     void Start()
@@ -61,6 +63,17 @@ public class ItemPickup : MonoBehaviour
         //attempt to add item
         else*/ if (Inventory.instance.Add(item))
         {
+            if (locationValue == 0) {
+                ItemList.RetirementHomeItemList[destroyValue] = true;
+            } else if (locationValue == 1) {
+                ItemList.RestaurantItemList[destroyValue] = true;
+            } else if (locationValue == 2) {
+                ItemList.PlaygroundItemList[destroyValue] = true;
+            } else if (locationValue == 3) {
+                ItemList.ParkItemList[destroyValue] = true;
+            } else if (locationValue == 4) {
+                ItemList.BankItemList[destroyValue] = true;
+            }
             Destroy(gameObject);
         }
         
