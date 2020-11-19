@@ -18,5 +18,5 @@ MonoBehaviour:
   dex:
     baseValue: 0
   str:
-    baseValue: 0
+    baseValue: 11
   isDefaultItem: 0
