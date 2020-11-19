@@ -6,6 +6,13 @@ public class CharacterStats : MonoBehaviour
     public Stat dex;
     public Stat str;
 
+
+    public float getDexValue()
+    {
+        float x = dex.GetValue();
+        return x;
+    }
+
     public float IncreaseSpeed(float runspeed)
     {
         float x = dex.GetValue();
@@ -20,6 +27,8 @@ public class CharacterStats : MonoBehaviour
         Strength += x;
         return Strength;
     }
+
+    
 
    /* public float getDexVal()
     {

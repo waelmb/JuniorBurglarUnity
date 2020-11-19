@@ -203,6 +203,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: e4de9a040fcef4589bda4a6a7576497d, type: 2}
   value: 0
+  locationValue: 0
   destroyValue: 4
 --- !u!212 &161619064
 SpriteRenderer:
@@ -363,6 +364,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 28831d51038029e45b39a6a601193eb7, type: 2}
   value: 0
+  locationValue: 0
   destroyValue: 3
 --- !u!212 &180603434
 SpriteRenderer:
@@ -502,8 +504,6 @@ MonoBehaviour:
     baseValue: 0
   str:
     baseValue: 0
-  RunSpeed: 2
-  isFacingRight: 0
 --- !u!114 &235249605
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2686,7 +2686,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 586868492}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5f28bb54c4a0ce54eaa22c43624cf5b3, type: 3}
   m_Name: 
@@ -10398,6 +10398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: b2d68d8f7e635714d9df33caaf76da42, type: 2}
   value: 0
+  locationValue: 0
   destroyValue: 2
 --- !u!212 &865189206
 SpriteRenderer:
@@ -10781,6 +10782,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: a8661f2609a8ca24689261e31a3d3f88, type: 2}
   value: 0
+  locationValue: 0
   destroyValue: 1
 --- !u!61 &1035710524
 BoxCollider2D:
@@ -11099,6 +11101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 393c4167a02420f4484d59029ec9792f, type: 2}
   value: 0
+  locationValue: 0
   destroyValue: 5
 --- !u!212 &1259234366
 SpriteRenderer:
@@ -11744,6 +11747,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 59ddf0ef8e0ebfa49a7ff331ab7059a1, type: 2}
   value: 0
+  locationValue: 0
   destroyValue: 0
 --- !u!212 &2136068034
 SpriteRenderer:

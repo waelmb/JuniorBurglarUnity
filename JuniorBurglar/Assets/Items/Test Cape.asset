@@ -16,9 +16,9 @@ MonoBehaviour:
   description: 
   artwork: {fileID: 21300000, guid: ef284c824fe652e4ab52ec4069681e7f, type: 3}
   dex:
-    baseValue: 0
+    baseValue: 1
   str:
-    baseValue: 0
+    baseValue: 1
   isDefaultItem: 0
   equipSlot: 1
   dexmodifier: 0.1

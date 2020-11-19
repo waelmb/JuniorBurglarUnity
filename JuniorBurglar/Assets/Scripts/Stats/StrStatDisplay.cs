@@ -14,8 +14,7 @@ public class StrStatDisplay : PlayerStats
     // Update is called once per frame
     void Update()
     {
-        getStrval();
-        strText.text = getStrval().ToString();
-        //UnityEngine.Debug.Log("this is the str value: " + getStrVal());
+        UnityEngine.Debug.Log("this is the str value: " + getStrval());
+        strText.text = getStrval().ToString();   
     }
 }
