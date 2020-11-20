@@ -21,5 +21,5 @@ MonoBehaviour:
     baseValue: 0
   isDefaultItem: 0
   equipSlot: 3
-  dexmodifier: 1
+  dexmodifier: 0.1
   strmodifier: 1
